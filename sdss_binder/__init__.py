@@ -4,14 +4,14 @@ import os
 import base64
 import secrets
 
-def setup():
+def setup_intro():
 	def mappath(path):
 		return '/introduction.ipynb'
 
 	return {
 		'mappath': mappath,
 		'launcher_entry': {
-			'title': 'SDSS and BinderHub',
+			'title': 'A SDSS and BinderHub',
 			'icon_path': os.path.join(os.path.dirname(os.path.abspath(__file__)), 'sdss.svg')
 		},
 	}
