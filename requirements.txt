@@ -10,3 +10,5 @@ plotly
 pip
 lvm_tools
 matplotdrip
+sdss-semaphore
+pyarrow
