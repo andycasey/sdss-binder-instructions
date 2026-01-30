@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/andycasey/sdss-binder-instructions"
+Homepage = "https://github.com/andycasey/sdss-binder"
 
 [project.entry-points."jupyter_serverproxy_servers"]
 intro = "sdss_binder:setup_intro"

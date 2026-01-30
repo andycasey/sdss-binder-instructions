@@ -5,9 +5,6 @@ import base64
 import secrets
 
 def setup_intro():
-	def mappath(path):
-		return '/introduction.ipynb'
-
 	return {
                 'command': [],
 		'launcher_entry': {
