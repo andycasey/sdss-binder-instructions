@@ -13,7 +13,7 @@ def setup_intro():
 		'launcher_entry': {
 			'title': 'Accessing SDSS on BinderHub',
 			'icon_path': os.path.join(os.path.dirname(os.path.abspath(__file__)), 'sdss.svg'),
-                        'path_info': 'lab/tree/introduction.ipynb'
+                        'path_info': 'lab/tree/notebooks/introduction.ipynb'
 		},
 	}
 
